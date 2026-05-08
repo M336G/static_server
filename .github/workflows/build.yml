@@ -1,6 +1,7 @@
 name: "Build Binaries"
 on:
   push:
+    branches: [ main ]
 jobs:
   release:
     name: ${{ matrix.platform.os-name }}
