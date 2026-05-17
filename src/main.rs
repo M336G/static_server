@@ -46,7 +46,7 @@ async fn main() {
         .ok()
         .and_then(|boolean| boolean.parse().ok())
         .unwrap_or(false);
-    if !disable_mime_guessing {
+    if disable_mime_guessing {
         println!("File mime guessing disabled!")
     }
 
