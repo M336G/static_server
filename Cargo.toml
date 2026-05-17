@@ -2,7 +2,7 @@
 name = "static_server"
 description = "Lightweight & superfast static file server supporting in-memory caching"
 authors = ["M336"]
-version = "1.0.0"
+version = "1.0.1"
 edition = "2024"
 license = "MIT"
 
